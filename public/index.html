@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  </head>
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      
+      
+      font-size: 14px;
+    
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 800px;
+      height: 260px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <body class="">
+
+    <header>
+      <div class=" max-w-full  items-center bg-[#026CD0] text-white px-6 py-2 flex  items-center justify-between items-center ">
+        
+        <div class="div flex items-center mx-auto flex gap-32 justify-between items-center ">
+
+
+          <div class=" ">
+            <img
+              src="https://www.midtowncomics.com/images/logos/midtown/midtown_logo.png"
+              class="w-[90px] h-[90px]"
+              alt="Logo"
+            />
+          </div>
+        
+      
+          <ul class="flex gap-10 font-bold text-[19px] ">
+            <li>Home <i class="ri-arrow-down-s-line"></i></li>
+            <li>Shop <i class="ri-arrow-down-s-line"></i></li>
+            <li>Product <i class="ri-arrow-down-s-line"></i></li>
+            <li>Blog <i class="ri-arrow-down-s-line"></i></li>
+            <li>Featured <i class="ri-arrow-down-s-line"></i></li>
+          </ul>
+        
+       
+          <ul class="flex gap-4 text-2xl">
+            <li><i class="ri-search-line"></i></li>
+            <li><i class="ri-user-line"></i></li>
+            <li><i class="ri-heart-line"></i></li>
+            <li><i class="ri-handbag-line"></i></li>
+          </ul>
+        </div>
+      </div>
+      
+      
+
+
+
+    </header> 
+    <div class="navabrspider mx-auto flex justify-center items-center ">
+     
+      <div class="flex-shrink-0 w-[613px]">
+        <img src="https://www.midtowncomics.com/images/jn/2025/0917/skin.jpg" 
+             class=" w-[940px]" 
+             alt="">
+      </div>
+    
+   
+      <div class="w-[1200px] h-[456px] bg-[#3871B4] rounded-none  overflow-hidden">
+        <div class="text text-center text-white py-4">
+          <h1 class="font-bold text-[38px]">WEEKLY RELEASES</h1>
+          <p class="text-[19px]">Updated every Wednesday</p>
+        </div>
+    
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://www.midtowncomics.com/images/jn/2025/0917/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.midtowncomics.com/images/jn/2025/0917/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.midtowncomics.com/images/jn/2025/0917/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.midtowncomics.com/images/jn/2025/0917/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="https://www.midtowncomics.com/images/jn/2025/0917/5.jpg" alt=""></div>
+          </div>
+    
+         
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <h1 class="font-bold text-[26px] text-white text-center  ">Spider-Man This Week Ultimat <br> Spider-Man #21 and more</h1>
+      </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+ 
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+    
+    <main class="max-w-7xl mx-auto shadow-l p-3 pl-2 pr-2">
+      <div class="div flex flex-col items-center justify-center mt-8">
+        <h1 class="text-[40px]">Products</h1>
+        <p class="text-[#808080]">Home/Products</p>
+      </div>
+
+      <div class="collections flex max-h-full">
+        <div class="flex flex-col mt-14 gap-40">
+          <div class="relative">
+            <button
+              id="dropdownBtn1"
+              class="flex w-[190px] items-center gap-1 px-4 py-2 border border-gray-300 rounded cursor-default bg-gray-50"
+              
+            >
+              Collections
+              <i
+                class="ri-arrow-down-s-line transition-transform duration-300"
+              ></i>
+            </button>
+
+            <div id="dropdownMenu1" class="origin-top scale-y-100 opacity-100 absolute mt-2 w-48 bg-white border rounded shadow-lg">
+              <a href="#" class="filter-btn block px-4 py-2 hover:bg-gray-100" data-category="MarvelComics">Marvel Comics</a>
+              <a href="#" class="filter-btn block px-4 py-2 hover:bg-gray-100" data-category="DCComics">DС Comics</a>
+              <a href="#" class="filter-btn block px-4 py-2 hover:bg-gray-100" data-category="AnimeManga">Anime Manga</a>
+            </div>
+            
+          </div>
+
+          <div class="relative">
+            <button
+              id="dropdownBtn2"
+              class="flex items-center gap-1 px-4 py-2 border border-gray-300 rounded cursor-default bg-gray-50"
+              
+            >
+              Availability
+              <i
+                class="ri-arrow-down-s-line transition-transform duration-300"
+              ></i>
+            </button>
+            
+            <div
+            id="dropdownMenu2"
+            class="origin-top scale-y-100 opacity-100 absolute mt-2 w-48 bg-white border rounded shadow-lg"
+            >
+            <a href="#" class=" filter-price  block px-4 py-2 hover:bg-gray-100" data-min="10" data-max="20">
+              Price:10$-20$</a
+              >
+              <a href="#" class="  filter-price  block px-4 py-2 hover:bg-gray-100" data-min="20" data-max="40"
+              >Price:20$-40$</a
+              >
+            </div>
+          </div>
+        </div>
+        
+        <div
+        class="imageundercollecctions border border-black absolute h-900px mt-[431px]"
+        >
+        <img
+        class="h-[404px] w-[230px]"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEpsUobG0ldbGXAzT5t2jAhFzNAgM8m97fiSviOPXTXkByixW2u7d0eHAK_y-ZUOwq9ZE&usqp=CAU"
+        alt=""
+        />
+      </div>
+      
+      <h1
+      class="text-l relative top-[445px] left-[-170px] h-8 font-bold text-white bg-red-600 p-2 rounded-lg shadow-lg hover:bg-red-700 transition-colors duration-300"
+      >
+      AD
+    </h1>
+    
+    <select
+    id="sort_by"
+    name="sort_by"
+    class="h-6 ml-20 mt-[64.6px] w-44 border border-gray-300 bg-white text-sm shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 cursor-pointer"
+    >
+    <option value="manual">Featured</option>
+    <option value="best-selling" selected>Best selling</option>
+    <option value="title-ascending">Alphabetically, A-Z</option>
+    <option value="title-descending">Alphabetically, Z-A</option>
+    <option value="price-ascending">Price, low to high</option>
+    <option value="price-descending">Price, high to low</option>
+    <option value="created-ascending">Date, old to new</option>
+    <option value="created-descending">Date, new to old</option>
+  </select>
+  
+  <div id="products" class="grid grid-cols-3 gap-x-40 gap-y-5 mt-20 relative left-[-149px] ">
+</div>
+
+
+<div id="cartSidebar" class="fixed top-0 left-0 h-full w-80 bg-white shadow-lg transform -translate-x-full transition-transform duration-300 z-50">
+  <div class="flex justify-between items-center p-4 border-b">
+    <h2 class="text-xl font-bold">Cart</h2>
+    <button id="closeCart" class="text-2xl">&times;</button>
+  </div>
+  <div class="p-4 border-t border-black">
+    <p class="font-bold">Total: <span id="cartTotal">0 ₼</span></p>
+    <button id="clearCartBtn" class="w-20 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors">
+      Delete all 
+    </button>
+  </div>
+  <div id="cartItems" class="p-4 overflow-y-auto h-[calc(100%-64px)]">
+   
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="adphoto">
+  <img src="https://www.midtowncomics.com/images/jn/2025/0312/gc-banner.png" alt="">
+</div>
+
+</main>
+
+
+
+<script src="/src/index.js"></script>
+  </body>
+
+
+  
+
+
+
+  </html>
+
+
+ 
